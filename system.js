@@ -36,12 +36,6 @@ const Owner = JSON.parse(fs.readFileSync('./lib/database/owner.json'));
 const contacts = JSON.parse(fs.readFileSync('./lib/database/contacts.json'));
 
 
-// ====== IMAGE NYE ========
-const zora = fs.readFileSync('./image/theZora.jpg');
-const exten = fs.readFileSync('./image/exten.jpg');
-const zuxo = fs.readFileSync('./image/zora.jpg');
-
-
 // Waktu Indonesia
 let jakartaTime = moment().tz("Asia/Jakarta");
 const wib = moment.tz("Asia/Jakarta").format("HH : mm : ss");
