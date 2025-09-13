@@ -1,6 +1,6 @@
 console.clear();
-console.log(chalk.blue.bold('starting bot....'));
-require('./config')
+console.log('starting bot....');
+require('./config');
 
 
 const { 
