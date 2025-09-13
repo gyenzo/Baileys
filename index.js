@@ -5,13 +5,13 @@ require('./config');
 
 const { 
         default: makeWASocket, 
-        useMultiFileAuthState, 
         DisconnectReason, 
         jidDecode, 
         downloadContentFromMessage,
         makeCacheableSignalKeyStore
 } = require("@whiskeysockets/baileys");
 
+  const useMultiFileAuthState = require("@whiskeysockets/baileys");
   const pino = require('pino');
   const readline = require("readline");
   const chalk = require("chalk");
