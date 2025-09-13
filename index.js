@@ -20,7 +20,6 @@ const {
   const FileType = require('file-type');
   const { boom } = require("@hapi/boom");
   const util = require("util");
-  const axios = require("axios");
 
 const { 
       smsg, 
